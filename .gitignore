@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 密钥（.env.example 是模板，可以提交；.env 含真实 Key，绝不提交）
+.env
+
+# 生成的演示库（用 python db_setup.py 本地重建即可）
+data/*.db
+
+# 一次性调试输出
+_*.txt

@@ -1,0 +1,5 @@
+# 统一换行符：仓库内一律 LF，二进制文件不做转换
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.db binary

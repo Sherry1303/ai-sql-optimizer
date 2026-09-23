@@ -1,0 +1,7 @@
+# AI SQL 优化助手 —— 运行时依赖
+# 本机已在 Python 3.14.0 上验证：streamlit 1.64.0 / openai 3.16.2 / pandas 3.0.6 / python-dotenv 1.2.3
+# 最低版本按首次引入所需 API 标注（st.write_stream 需要 1.31+，openai 新 SDK 需要 1.0+）
+streamlit>=1.31
+openai>=1.40
+pandas>=2.0
+python-dotenv>=1.0
