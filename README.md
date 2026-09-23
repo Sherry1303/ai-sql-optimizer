@@ -56,6 +56,7 @@ ai-sql-optimizer/
 ├── db_setup.py         # 演示库生成器 + 数据访问层（只读连接、schema/索引/行数）
 ├── requirements.txt    # 依赖
 ├── .env.example        # DeepSeek 配置模板
+├── .gitattributes      # 换行符约定（仓库内统一 LF）
 ├── data/demo.db        # 生成的 SQLite 演示库（约 4.1 MB，57,100 行）
 ├── docs/images/        # README 界面截图（9 张真实运行截图）
 ├── tools/              # 可选开发工具（capture_screenshots.py：重抓上面这些图）
@@ -89,7 +90,7 @@ ai-sql-optimizer/
 已验证环境：**Python 3.14.0 / streamlit 1.64.0 / pandas 3.0.6 / openai 3.16.2 / python-dotenv 1.2.3**。
 
 ```powershell
-cd d:\ai-sql-optimizer
+cd d:\ai-sql-optimizer        # 或：git clone https://github.com/Sherry1303/ai-sql-optimizer.git
 
 # 1) 安装依赖（如已装可跳过）
 python -m pip install -r requirements.txt
